@@ -1,0 +1,35 @@
+.bg-fijo {
+    background-attachment: fixed;
+    background-image: url(../img/bootstrap/vector-blue-iluminacion.jpg);
+    background-size: cover;
+}
+
+.container-fluid {
+    margin-bottom: 500px;
+}
+
+hr {
+    color: white !important;
+}
+
+.carousel-item img {
+    width: 800px;
+    border-radius: 20px;
+}
+
+/* Media del carousel para que se adapte */
+@media (max-width: 576px) {
+    .carousel-item img {
+        width: 350px !important;
+        padding: 50px !important;
+        border-radius: 60px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-item img {
+        width: 650px;
+        border-radius: 40px;
+        padding: 20px;
+    }
+}

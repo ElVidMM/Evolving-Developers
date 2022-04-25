@@ -50,3 +50,22 @@ hr {
         padding: 20px;
     }
 }
+
+/* Imagen modal */
+.github-enlace {
+    text-indent: 10px;
+    background-image: url(../img/vectores/vector-red-poligon.jpg);
+    background-size: cover;
+    flex-direction: row;
+    align-items: center;
+}
+
+.github-enlace a {
+    margin-bottom: 7px;
+}
+
+@media (max-width: 576px) {
+    .texto-modal h5 {
+        margin: 10px !important;
+    }
+}
